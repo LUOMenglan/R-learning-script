@@ -1,0 +1,3 @@
+mergeData2<-merge(reviews,solutions,by.x="solution_id",by.y="id",all=TRUE)
+head(mergeData2[,1:6],3)
+reviews[1,1:6]
