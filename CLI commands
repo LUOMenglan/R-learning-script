@@ -1,0 +1,13 @@
+pwd       #display the path to you're working directory
+clear     #will clear out the commands in your current CLI window
+ls        #lists files and folders in the current directory
+cd        #stands for "change directory"
+mkdir     #stands for "make directory"
+touch     #creates an empty file
+cp        #stands for "copy"
+rm        #remove
+mv        #move,with mv you can move files between directories
+echo      #will print whatever arguments you provide
+date      #will print today's date
+
+
