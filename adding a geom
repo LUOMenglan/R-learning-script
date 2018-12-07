@@ -1,0 +1,10 @@
+#adding a geom
+qplot(displ,hwy,data=mpg,geom=c("point","smooth"))
+
+#principles of analytic graphics
+#principle1:show comparisons
+#principle2:show causality,mechanism,explanation
+#principle3:show multivariate data
+#principle4:integrate multiple modes of evidence
+#principel5:describe and document the evidence
+#principle6:content is king
