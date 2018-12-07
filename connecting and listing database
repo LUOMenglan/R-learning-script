@@ -1,0 +1,4 @@
+ucscDb<-dbConnect(MySQL(),user="henome",host="genome-mysql.cse.ucsc.edu")
+result<-dbGetQuery(ucscDb,"show databases;")
+dbDisconnect(ucscDb)
+result
