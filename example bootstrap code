@@ -1,0 +1,8 @@
+B<-1000
+n<-length(gmVol)
+resamples<-matrix(sample(gmVol,
+                         n*B,
+                         replace=TRUE),
+                  B,n)
+medians<-apply(resamples,1,median)
+sd(medians)
