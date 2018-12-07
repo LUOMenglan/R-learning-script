@@ -1,0 +1,5 @@
+##this might take time
+con<-url("https://www.coursera.org/learn/analytics-excel/lecture/yTqd8/functions-on-a-set-of-numbers")
+x<-readLines(con)
+head(x)
+
